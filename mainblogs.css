@@ -1,0 +1,41 @@
+.blog_pic_one{
+    width: 300px;
+}
+
+.blogsone{
+background-color: rgb(166, 242, 242);
+display: flex;
+flex-direction: column;
+padding: 5px 10px;
+}
+
+.main_blogs{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.blogs:hover{
+    box-shadow:3px 4px 20px rgb(140, 133, 133);
+
+}
+.blogs{
+    display: flex;
+    margin-top: 5px;
+    text-align: center
+}
+
+.fris{
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .main_blogs{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 5px;
+    } 
+    body{
+        text-align: center;
+    }
+}

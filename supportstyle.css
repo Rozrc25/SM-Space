@@ -1,0 +1,41 @@
+.Support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin-bottom:.5rem!important; 
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px black solid;
+    padding: 10px;
+}
+
+textarea{
+    margin-bottom:.5rem!important; 
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px black solid;
+    padding: 10px;
+}
+
+body{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(24, 25, 25);
+    padding: 20px 50px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow:3px 4px 30px rgb(141, 42, 42);
+
+}

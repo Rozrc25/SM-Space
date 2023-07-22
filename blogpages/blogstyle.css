@@ -1,0 +1,49 @@
+.blog_pst {
+    background-color: rgb(233, 229, 222);
+    width: 800px;
+    margin-left: 300px;
+}
+
+.blog_pic {
+    width: 650px;
+    height: 500px;
+    aspect-ratio: 2/2;
+}
+
+.pst_bl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
+}
+
+title {
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .blog_pst {
+        background-color: azure;
+        display: flex;
+        width: auto;
+        margin-left: 2px;
+    }
+
+    .blog_pic{
+        width: 250px;
+        height: 200px;
+    }
+
+    .pst_bl {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 5%;
+        flex-direction: row;
+        
+    }
+
+}

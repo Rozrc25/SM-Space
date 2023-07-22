@@ -1,0 +1,63 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 50px;
+}
+.card_sec_vid{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 210px;
+    align-items: center;
+}
+
+body{
+    background-image: url(../asserts/background.jpg);
+    text-align: center;
+}
+
+.pgvids{
+    width: 350px;
+    height: 200px;
+}
+.cards_img_nm{
+   display: flex;
+   align-items:center ;
+}
+
+.rnd_avatar{
+    position: relative;
+    bottom: 90px;
+}
+.acc_nam{
+    position: relative;
+    bottom: 90px;
+    right: 25px;
+}
+footer {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: gray;
+}
+.fir_fot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sec_fot{
+    font-size: small;
+}
+
+@media only screen and (max-width: 600px) {
+    .col{
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}

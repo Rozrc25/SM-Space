@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support</title>
+  <link rel="stylesheet" href="supportstyle.css">
+  <link rel="stylesheet" href="./topmenucom.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <div class="top_bar">
+    <div class="logo">
+      <span class="sm"><img class="sm_logo" src="./asserts/SM logo.png" alt="SM">
+        <p class="log_ptag">Spcae</p>
+      </span>
+    </div>
+    <nav class="menu">
+      <a class="menu_a" href="./index.html">Home <i class="bi bi-house-door-fill"></i></a>
+      <a class="menu_a" href="./support.html">Support <i class="bi bi-headset"></i></a>
+      <a class="menu_a" href="#">notification<i class="bi bi-bell-fill"></i></a>
+      <a class="menu_a" href="./privacy.html">Privacy<i class="bi bi-shield-lock-fill"></i></a>
+      <a class="menu_a" href="./login/login.html">Login <i class="bi bi-person-circle"></i></a>
+    </nav>
+  </div>
+  <form id="form">
+    <div class="Support">
+      <h3>Fill to Contact</h3>
+      <input type="text" placeholder="Your name">
+      <input type="email" placeholder="Email">
+      <input type="tel" placeholder="Phone">
+      <textarea placeholder="Enter Your Query"></textarea>
+      <br />
+      <button onclick="clicked()">Send</button>
+      <p id="updt"></p>
+        </div>
+    </form>
+
+    <script>
+      function clicked() {
+        document.getElementById(" updt").innerHTML = "form submitted"
+      } </script>
+</body>
+
+</html>
